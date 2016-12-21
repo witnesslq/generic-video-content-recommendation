@@ -1,36 +1,23 @@
-# doubanSpider
+# genericVideoContentRecommendation
+
 
 ## Introduction
 
-From [DouBan Movie PopularComment](https://movie.douban.com/review/best/) get related data, such as MovieCommentTitle, Moviename, MovieURL, MovieRank, MovieShortComment, MovieCommentURL with Python2.7.* .
+From [DouBan Movie PopularComment](https://movie.douban.com/review/best/) get related data, such as MovieCommentTitle, Moviename, MovieURL, MovieRank, MovieShortComment, MovieCommentURL, MovieImages with Python2.7.* , and these data are stored MySQL.And sequently, with B/S model finish recommendation job.
 
 ## Usage
 
-
-* Install related libraries
+* Start Clone
 ```
-sudo pip install beautifulsoup4
-sudo pip install progressbar2
-sudo pip lxml
+git clone https://github.com/memory-yancy/genericVideoContentRecommendation.git
 ```
-* Start to work
-```
-git clone https://github.com/memory-yancy/doubanSpider.git
-
-cd doubanSpider && python fun.py
-```
+* Use Eclipse or myEclipse etc. import project...
 
 ## Screenshots
 
-![image](http://img.vim-cn.com/91/bbad26b89ddd82e0055cc3abe4ba5ead57b59d.png)
-
-![iamge2](http://img.vim-cn.com/e1/1845d53e2301e50f67c1be127456788d66b064.jpg) 
 
 ## Bugs
 
 If you encounter any problem while using it please let me know.
 
 ## Credits
-
-* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
-* [progressbar](http://progressbar-2.readthedocs.io/en/stable/index.html)
