@@ -31,6 +31,7 @@ def getData(content_val):
     flag = 0
     datalist = []
     soup = BeautifulSoup(content_val, 'lxml')
+
     dict_val = soup.find_all(class_='review-list chart', recursive=True)
     # 得到电影评论标题
     for eleOne in dict_val:
@@ -62,9 +63,15 @@ def getData(content_val):
         movie_shortCommentList = eleSix.find_all('div', 'short-content')
         datalist_movie_shortComment = list(
             [movie_shortComment for movie_shortComment in movie_shortCommentList])
+    # 得到电影的海报图片
+    for eleSeven in dict_val:
+        movie_imageList = eleSeven.find_all('a', class_='subject-img left')
+        datalist_movie_image = list([movie_image for movie_image in movie_imageList])
+    
     for flag in range(0, 10):
         result = [datalist_comment_title[flag].get_text(), '\t', datalist_movie_title[flag].get_text(), '\t', datalist_movie_url[flag], '\t', datalist_movie_rank[
-            flag], '\t', unicode(datalist_movie_shortComment[flag].contents[0]).strip(), '\t', datalist_movie_commentURl[flag]]
+            flag], '\t', unicode(datalist_movie_shortComment[flag].contents[0]).strip(), '\t', datalist_movie_commentURl[flag], '\t', 
+            datalist_movie_image[flag].img["src"]]
         SQL_dataText = './getData/dataText.txt'
         try:
             files = open(SQL_dataText, 'a+')
