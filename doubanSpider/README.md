@@ -24,7 +24,7 @@ cd doubanSpider && python fun.py
 
 ![image](http://img.vim-cn.com/91/bbad26b89ddd82e0055cc3abe4ba5ead57b59d.png)
 
-![iamge2](http://img.vim-cn.com/52/5d0a17dad15a1ae8f8a2fe57e0ca038a1e6600.png) 
+![iamge2](http://img.vim-cn.com/e1/1845d53e2301e50f67c1be127456788d66b064.jpg) 
 
 ## Bugs
 
