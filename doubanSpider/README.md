@@ -15,9 +15,9 @@ sudo pip lxml
 ```
 * Start to work
 ```
-git clone https://github.com/memory-yancy/doubanSpider.git
+git clone https://github.com/memory-yancy/genericVideoContentRecommendation.git
 
-cd doubanSpider && python fun.py
+cd genericVideoContentRecommendation/doubanSpider && python fun.py
 ```
 
 ## Screenshots
