@@ -15,9 +15,17 @@ git clone https://github.com/memory-yancy/genericVideoContentRecommendation.git
 
 ## Screenshots
 
+* ![image1](http://i1.piimg.com/1949/9605c05878286189.jpg)
+
+* ![image2](http://i1.piimg.com/1949/84e68bc5444de819.png)
+
+* ![image3](http://p1.bqimg.com/1949/b4aa10ad7d281a46.png)
 
 ## Bugs
 
 If you encounter any problem while using it please let me know.
 
 ## Credits
+
+* [No Lucky ，project deleted——commentbox](https://github.com/dongweiming/commentbox)
+* Help me with solving troubles' people...
