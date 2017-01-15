@@ -65,7 +65,7 @@ def getData(content_val):
             [movie_shortComment for movie_shortComment in movie_shortCommentList])
     # 得到电影的海报图片
     for eleSeven in dict_val:
-        movie_imageList = eleSeven.find_all('a', class_='subject-img left')
+        movie_imageList = eleSeven.find_all('a', class_='subject-img')
         datalist_movie_image = list([movie_image for movie_image in movie_imageList])
     
     for flag in range(0, 10):
